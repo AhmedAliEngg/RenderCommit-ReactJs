@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Image from './Image.js';
+//import Image from './Image.js';
 import './index.css';
-//import App from './App';
-//import reportWebVitals from './reportWebVitals';
-
+// import App from './App';
+// import reportWebVitals from './reportWebVitals';
+import Gallery from './Gallery.js'
 ReactDOM.render(
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>,
-  <Image/>,
+  // <Image/>,
+  <Gallery/>,
   document.getElementById('root')
 );
 
